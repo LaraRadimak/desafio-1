@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1 class= "titulo-principal">Alura</h1>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <textarea class="text-input" type="text" cols="70" rows="20" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui"></textarea>
+        
+        <br><br>
+        <img src="Vector.png" alt="vector"> <label class="input-texto" for="input-texto">Solo letras minúsculas, sin acento</label>
+        <br>
+        <input class="btn" type="button" value="encriptar!" id="btn-encriptar">
+        <input class="btn" type="button" value="desencriptar!" id="btn-desencriptar">
+      </form>
+    </section>
+  
+    <section class="msg box">
+      
+      <textarea   class="text-input-salida" type="text" cols="28" rows="28" id="msg" placeholder="Ningun mensaje fue encontrado"></textarea>
+      <img src="Muñeco.png" alt="Muñeco" class="munieco">
+      <input   class="btn" type="button" value="copiar" id="btn-copy">
+
+    
+    </section>
+    
+  </main>
+
+  <script src="java.js"></script>
+  <script src="copiar-pegar.js"></script>
+</body>
+</html>

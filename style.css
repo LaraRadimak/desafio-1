@@ -1,0 +1,79 @@
+body{
+    background: white;
+    font-family: Work Sans;
+    width: 1440px;
+    height: 1024px;
+}
+.titulo-principal{
+    font-size: 30px;
+    color: #0A3871;   
+}
+
+
+:placeholder-shown {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+  }
+.text-input{
+
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid #000000;
+    border-radius:10px ;
+    margin-right: 200px;
+    position: static;
+    
+}
+
+.btn{
+    width: 15%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: darkblue ;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    display: inline-block;
+    clear: left;
+}
+
+.input-texto{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    display: inline;
+
+}
+
+.munieco{
+    position: absolute;
+    top: 250px;
+    left: 990px;
+    width: 25%;
+}
+#btn-copy{
+    position: absolute;
+    left: 1030px;
+    top: 550px;
+}
+.text-input-salida{
+    display:inline;
+    box-sizing: border-box;
+font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid #000000;
+    border-radius:10px ;
+    position: absolute;
+    top: 10px;
+    left: 990px;
+}
